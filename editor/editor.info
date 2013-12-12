@@ -1,0 +1,4 @@
+name = Editor
+description = Markitup Wysiwyg editor for Drupal Happensit (http://Happensit.ru)
+version = VERSION
+core = 7.x
