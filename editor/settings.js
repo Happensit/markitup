@@ -20,7 +20,7 @@ function mySettings() {
 				{name: 'Добавить строку', className:'editor-li', openWith:'<li>', closeWith:'</li>' },
 				{separator:'---------------' },
                 {name: 'Добавить изображение из Web', className:'editor-image', replaceWith:'<img src="[!['+'Введите адрес изображения:'+':!:http://]!]" />' },
-                {name: 'Добавить ссылку', className:'editor-link', key:'L', openWith:'<a href="[!['+'Введите url адрес:'+':!:http://]!]"(!( title="[![Title]!]")!)>', closeWith:'</a>', placeHolder:'Введите название ссылки...' },
+                {name: 'Добавить ссылку', className:'editor-link', key:'L', openWith:'<a href="[!['+'Введите url адрес:'+':!:http://]!]"(!( title="[![Title]!]")!)>', closeWith:'</a>', placeHolder:'Введите название ссылки..' },
                 {separator:'---------------' },
 				{name: 'Очистить тэги', className:'editor-clean', replaceWith: function(markitup) { return markitup.selection.replace(/<(.*?)>/g, "") } },
 				{name: 'Cut', className:'editor-cut', replaceWith: function(markitup) { if (markitup.selection) return '<cut name="'+markitup.selection+'">'; else return '<cut>' }}
