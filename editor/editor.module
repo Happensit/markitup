@@ -13,10 +13,8 @@ function editor_form_alter(&$form, &$form_state, $form_id) {
         drupal_add_css($path.'/vendor/markitup/sets/markitup.css');
         drupal_add_js($path.'/settings.js','file');
         drupal_add_js('jQuery(document).ready(function(){
-            jQuery("textarea").markItUp(
-                mySettings()
-            );
-        });', 'inline');
+                              jQuery("textarea").markItUp(mySettings());
+                         });', 'inline');
 
     }
 }
