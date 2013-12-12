@@ -1,4 +1,4 @@
 name = Editor
-description = Markitup Wysiwyg editor for Drupal Happensit (http://Happensit.ru)
+description = Markitup Wysiwyg editor for Drupal. Created by: Happensit (http://happensit.ru)
 version = VERSION
 core = 7.x
