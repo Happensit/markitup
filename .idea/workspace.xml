@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82825ab-3b42-4a6c-b984-3441a137619b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\markitup\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\markitup\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="markitup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="editor.info" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editor/editor.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="602">
+            <state line="3" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="197">
               <folding />
             </state>
           </provider>
@@ -80,6 +80,9 @@
     <option name="myDateState">
       <MyDateState />
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -375,7 +378,11 @@
       <created>1386897145667</created>
       <updated>1386897145667</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="remove .idea folder">
+      <created>1386897288054</created>
+      <updated>1386897288054</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -384,7 +391,7 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64490443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.64490443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -394,6 +401,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -420,14 +428,14 @@
     <MESSAGE value="Latest jquery.markitup.js version" />
     <MESSAGE value="New css" />
     <MESSAGE value="remove unnecessary code" />
-    <MESSAGE value="remove .idea folder" />
     <MESSAGE value="new image" />
     <MESSAGE value="new image2" />
     <MESSAGE value="change skins" />
     <MESSAGE value="change .info" />
     <MESSAGE value="test change" />
     <MESSAGE value="added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+    <MESSAGE value="remove .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .idea folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -532,7 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editor/editor.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="602">
+        <state line="3" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="197">
           <folding />
         </state>
       </provider>
