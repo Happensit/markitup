@@ -127,3 +127,7 @@
 .markItUpPreviewFrame ol { list-style-type: decimal; margin-left: 22px; }
 .markItUpPreviewFrame img[align="right"] { margin: 4px 0 5px 15px; }
 .markItUpPreviewFrame img[align="left"] { margin: 4px 15px 10px 0; }
+
+.resizable-textarea .grippie {
+    display: none !important;
+}
