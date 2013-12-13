@@ -7,4 +7,4 @@ Just install this module and wysiwyg editor will work! ))
 <p>
 <img src="https://drupal.org/files/project-images/markitup.png"/>
 </p>
-Need Jquery >=1.8
+Clone, rename the folder in the "editor". Dependence jQuery Update module. Need Jquery >=1.8
