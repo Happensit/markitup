@@ -1,0 +1,20 @@
+<?php
+
+function editor_form_alter(&$form, &$form_state, $form_id) {
+    if (strpos($form_id, '_node_form') !== FALSE) {
+        $path = drupal_get_path('module', 'editor');
+        $form['#attached'] = array(
+            'js' => array(
+                'data' => $path . '/vendor/markitup/jquery.markitup.js',
+            ),
+        );
+
+        drupal_add_css($path.'/vendor/markitup/skins/simple/redactor.css');
+        drupal_add_css($path.'/vendor/markitup/sets/markitup.css');
+        drupal_add_js($path.'/settings.js','file');
+        drupal_add_js('jQuery(document).ready(function(){
+                              jQuery("textarea").markItUp(mySettings());
+                         });', 'inline');
+
+    }
+}
