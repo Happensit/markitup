@@ -21,7 +21,7 @@ function editor_form_alter(&$form, &$form_state, $form_id) {
         );
 
         drupal_add_js('jQuery(document).ready(function(){
-            jQuery("textarea").markItUp(
+           jQuery("textarea#edit-body-und-0-value").markItUp(
                 mySettings()
             );
         });', 'inline');
