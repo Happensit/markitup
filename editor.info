@@ -2,4 +2,4 @@ name = Editor
 description = MarkitUp Wysiwyg editor for Drupal. Created by: Happensit (http://happensit.com)
 version = 1.0-dev
 core = 7.x
-dependencies[] = jquery_update
+;dependencies[] = jquery_update
